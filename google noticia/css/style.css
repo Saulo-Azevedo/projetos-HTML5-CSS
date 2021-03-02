@@ -1,0 +1,354 @@
+*{
+  margin: auto;
+  padding: auto;
+}
+body{
+  font-size: 1em;
+  font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  background: #ffffff;
+  
+}
+a{
+  text-decoration: none;
+  text-decoration-skip: none;
+}
+
+span{
+  color: rgb(255, 254, 254);    
+  vertical-align: middle;
+  margin: 4px;
+  padding-left: 2px;
+  text-decoration: none;
+  color: #3C4043;
+}
+img{
+  text-align: center;
+  vertical-align: middle;
+  padding: 3px 0px 0px 2px;
+}
+.img-busc{
+  height: 15px;
+  vertical-align: text-top;
+}
+hr{
+  width: 200px;
+  margin: 15px;
+
+}
+ul{
+  padding-left: 50px;
+  font-family: "Roboto RobotoDraft" Helvetica,Arial,sans-serif;;
+  font-size: 15px;
+  color: #202124;
+  margin: 15px;
+  padding: 15px;
+  overflow-anchor: none;
+  text-decoration: none;
+  text-decoration-skip: unset;  
+}
+li{
+  overflow-anchor: none;
+  text-decoration: none;
+  text-decoration-skip: unset;  
+}
+.man-covid{
+  height: 50px;
+  margin: 24px 0px 0px;
+  vertical-align: middle;
+  
+}
+
+.manchete{
+  width: 745px;
+  height: 80px;
+  vertical-align: middle;
+  text-align:left;
+  font-family: "Google Sans" sans-serif;
+  font-size: 20px;
+  color: #202124;
+
+}
+.man-dir{
+  width: 745px;
+  height: 80px;
+  vertical-align: middle;
+  color: #1a73e8;
+  font-family: "Google Sans" sans-serif;
+  font-size: 13px;
+
+  padding-left: 400px;
+  vertical-align: middle;
+}
+.azul{
+  color: #1a73e8;
+  font: 14px "Google Sans" sans-serif;
+  margin: 0px 4px 0px 0px;
+  flex-grow: 1;
+  vertical-align: middle;
+  margin-top: 3px;
+}
+.covi-in{
+  width: 355px;
+  height: 130px;
+  margin: -16px;
+  padding: 16px;
+  
+}
+.not-cov{
+  color: #3C4043;
+  font: 14px "Google Sans", sans-serif;
+}
+.span-inter2{
+  text-align: justify; 
+  font-size: 1em;
+  text-align: justify;
+  width: 280px;
+  height: 42px;
+  margin-bottom: 15px;
+}
+.span-inter3{
+  text-align: justify;
+  font-size: 12px;
+  text-align: justify;
+  width: 280px;
+  height: 42px;
+  color: black;
+}
+.div-space{
+  margin-bottom: 15px;
+}
+
+.span-lat{
+  width: 264px;
+  height: 30px;
+  display: inline-block; 
+  -webkit-box-orient: horizontal;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 13px/27px;
+}
+.span-inter{
+  width: 61,66px;
+  height: 30px;
+  text-size-adjust: 100%;
+  text-decoration: none;
+  text-decoration-skip: unset;
+  text-align: justify;
+}
+.covid{
+  width: 280px;
+  height: 416px;
+  font: 14px;
+  font-family: "Google Sans" sans-serif;
+}
+
+.img-not{
+  text-align: right;
+}
+
+.noticia{
+  text-align: left;
+  font-size: 22px;
+  font-family:"Product Sans", Arial, Helvetica, sans-serif;
+  color: #5f6368;
+  margin-bottom: 15px;
+  padding: 0px 0px 0px 0px;
+  margin-left: -6px;
+  vertical-align: sub;
+
+}
+.navbar{
+  text-align: left;  
+  width: 800px;
+  margin-left: 15px;
+  padding-left: 25px;
+
+} 
+.prev{
+  text-align: left;
+}
+.previsao{
+  text-align: center;
+  padding-bottom: 15px;
+}
+.not{
+  -webkit-box-orient: vertical;
+  flex-direction: column;
+  border-radius: 8px;
+  border: 1px solid #dadce0;
+  position: relative;
+  overflow-anchor: none;
+  text-decoration: none;
+  text-decoration-skip: unset;
+  margin: 15px;
+} 
+.artigo{
+  height: 100%;
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  color: rgba(0,0,0,0.87);
+  font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  margin: 0;
+  text-size-adjust: 100%;
+  text-decoration: none;
+  text-decoration-skip: unset;
+  padding: 16px;
+}
+
+.script{
+  display: block;
+}
+
+#div-1{
+  display: inline-block;
+  width: auto;
+  height: 2300px;
+  background: rgb(255, 255, 255);
+  padding: 0px 0px 0px 8px;  
+  background-clip: padding-box;
+  border: 4px solid transparent;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+#center-1{  
+  width: auto;
+  height: 2300px;
+  background: rgb(254, 254, 255);/*  cor de fundo site retirar*/
+  padding: auto;
+  margin: auto; 
+  background-clip: padding-box;
+  border: 4px solid transparent;
+  border-radius: 10px;
+  box-sizing: border-box;
+  vertical-align: sub;
+}
+
+#cont_9b51e82250fe3ddb688cb4b63b441e89{
+  width: 250px;
+  height: 210px;
+  margin: 300px;
+}
+.cont1{
+  align-items: center;
+  text-align: start;
+  margin-left: 25px;
+}
+
+#painel{
+  display: inline-block;
+  width: 280px;
+  height: 972px;
+  background: rgb(254, 255, 255);
+  padding: 22px;
+  margin: -10px; 
+  background-clip: padding-box;
+  border: 4px solid transparent;
+  border-radius: 10px;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+#painel2{
+  display: inline-table;
+  width: 750px;
+  height: 972px;
+  background: rgba(254,254,255);
+  padding: auto;
+  margin: auto; 
+  background-clip: padding-box;
+  border: 4px solid transparent;
+  border-radius: 10px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+#painel3{
+  display: -webkit-inline-box;
+  width: 280px;
+  height: 250px;
+  background: rgb(254, 255, 255);
+  padding: -5px;
+  margin: -4px; 
+  background-clip: padding-box;
+  border: 4px solid transparent;
+  border-radius: 10px;
+
+}
+#painel4{
+  display: -webkit-inline-box;
+  width: 280px;
+  height: 250px;
+  background: rgb(254, 255, 255);
+  padding: -25px;
+  margin: -4px; 
+  background-clip: padding-box;
+  border-radius: 10px;
+  -webkit-box-align: center;
+  margin-left: 25px;
+  text-align: center;
+}
+
+
+#nav-bar{  
+  width: 1380px;
+  height: 60px;
+  padding-top: 14px;
+
+}
+#Busca{
+  background-color: transparent;
+  border: 2px solid #e3e7ee;
+  border-radius:15px;
+  width: 600px;
+  height: 60px;
+  vertical-align: middle;
+  padding-left: 15px;}
+#txtBusca{
+  float:inline-end;
+  background-color:transparent;
+  padding-left:5px;
+  font-style:italic;
+  font: 24px;
+  border-radius: 15px;
+  border: 0px transparent;
+  height: 15px;
+  width: 700px;
+  text-align: justify;
+  vertical-align: middle;
+}
+
+/** menu sandwich*/
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+  width: 25px;
+  height: 4px;
+  background-color: #333;
+  margin: 4px 0;
+  transition: 0.4s;
+  }
+  
+  /* Rotate first bar */
+  .change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+  }
+  
+  /* Fade out the second bar */
+  .change .bar2 {
+    opacity: 0;
+  }
+  
+  /* Rotate last bar */
+  .change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
+  }
+
+  .clear{
+  /* podemos utilizar as opções left,right, both ( ambos ), none*/
+  clear: both;
+}
